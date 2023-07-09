@@ -1,13 +1,12 @@
 import './App.css';
-
 import Navbar from './component/navbar';
-import Contact from './component/contact';
+import Hero from './component/hero';
 
 function App() {
   return (
     <div>
       <Navbar/>
-      <Contact/>
+      <Hero/>
     </div>
   );
 }
