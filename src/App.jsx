@@ -1,9 +1,12 @@
 import './App.css';
+import Navbar from './component/navbar';
+import Home from './component/Home';
 
 function App() {
   return (
     <div>
-      halow
+      <Navbar/>
+      <Home/>
     </div>
   );
 }
