@@ -12,11 +12,6 @@ body {
   /* 1 */
   /* line-height: inherit; */
   /* 2 */
-  background-image: url('../public/asset/bg.png');
-  background-repeat: no-repeat;
-  /* background-size: cover; */
-  background-position: right;
-  background-width:50%;
 }
 
 code {
