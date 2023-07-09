@@ -34,7 +34,7 @@ const Navbar = () => {
             </li>
             <li class="mx-4 my-6 md:my-0 xl:pr-[94px]">
                 {/* <Link to={"/"}>Contack</Link> */}
-                Contack
+                Contact
             </li>
 
             <span class="flex">
@@ -44,7 +44,7 @@ const Navbar = () => {
         </ul>
 
       </nav>
-      <div className='flex px-9 relative '>
+      <div className='flex relative '>
 
         <div className='w-[50%] flex flex-col justify-center items-center'>
           <div className='font-bold text-[60px] py-8 uppercase'>
@@ -54,26 +54,32 @@ const Navbar = () => {
             </p>
           </div>
 
-          <div className='font-[Poppins]  text-[#7A7A7A] font-light text-[24px]'>
+          <div className='font-[Poppins] text-[#7A7A7A] font-light text-[24px]'>
             <p>
             Exploring the world is an extraordinary experience.
             <pre className='font-[Poppins]'>We are ready to provide everything you need.</pre>
             </p>
           </div>
 
-          <div className='ml-16 py-8 flex-col justify-center items-center'>
-            <input 
-            type="text" 
-            placeholder='Search Information Your Vocation!'
-            className='bg-[#DEE9FF] w-[41rem] h-[4rem] rounded-[15px] px-6 '
-            
-            />
+          <div className='bg-[#DEE9FF] w-11/12 md:w-[41rem] xl:w-[41rem] h-auto p-5 rounded-3xl my-28 ml-12'>
+            <section className='w-full h-10 flex items-center'>
+              <span className='w-10 h-full flex items-center'>
+                <i class="uil uil-search text-xl"></i>
+              </span>
+              
+              <input 
+              type="text" 
+              className='w-full h-full font-medium md:pl-2 focus:outline-none bg-[#DEE9FF]'
+              placeholder='Search Your Vocation Here!'
+              />
+
+              <button className='w-28 h-full bg-blue-500 flex justify-center items-center rounded-2xl text-white font-medium font-[Poppins]'>
+                Search
+              </button>
+            </section>
           </div>
         </div>
 
-        <div className=''>
-          <img src="../asset/landing.png" alt="" />
-        </div>
       </div>
     </div>
   )
