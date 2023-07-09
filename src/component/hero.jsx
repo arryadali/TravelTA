@@ -20,12 +20,16 @@ const Hero = () => {
                 <pre className='font-[Poppins]'>We are ready to provide everything you need.</pre>
                 </p>
             </div>
+
+            <div className='absolute right-6 top-0'>
+                <img src="../asset/landing.png" alt="" />
+            </div>
             {/* Tulisan */}
 
             {/* Search Button */}
             <div className='bg-[#DEE9FF] w-11/12 md:w-[41rem] xl:w-[41rem] h-auto p-5 rounded-3xl my-28 ml-12'>
                 <section className='w-full h-10 flex items-center'>
-                    
+
                 <span className='w-10 h-full flex items-center'>
                     <i class="uil uil-search text-xl"></i>
                 </span>
