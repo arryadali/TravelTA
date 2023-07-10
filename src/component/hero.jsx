@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div>
+    <div className='container'>
       <div className='flex relative '>
         
         <div className='w-[50%] flex flex-col justify-center items-center'>
