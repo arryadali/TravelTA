@@ -8,10 +8,7 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /* 1 */
-  /* line-height: inherit; */
-  /* 2 */
+  -moz-osx-font-smoothing: grayscale;  
 }
 
 code {
