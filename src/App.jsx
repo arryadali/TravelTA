@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './component/navbar';
 import Hero from './component/hero';
 import Contact from './component/contact';
+import TopDestination from './component/topDestination';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <Contact/>
+      <TopDestination/>
     </div>
   );
 }
