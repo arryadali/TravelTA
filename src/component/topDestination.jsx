@@ -2,7 +2,7 @@ import React from 'react'
 
 const TopDestination = () => {
   return (
-    <div className='container'>
+    <div className='container my-24'>
       <div className='w-[91%] h-auto py-10 m-auto'>
         <div className='text-center mb-8'>
             <div className='mb-8'>

@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div className='container'>
-      <img src="../asset/bg.png" alt="" className="absolute w-full h-full mx-56"/>
+      <img src="../asset/bg.png" alt="" className="absolute w-5/6 h-screen mx-64"/>
        <nav className="py-6 px-16 md:flex md:items-center md:justify-between font-[Poppins] container relative">
         <div class="flex justify-between items-center">
             <span class="cursor-pointer">

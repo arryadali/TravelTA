@@ -5,29 +5,35 @@ const Hero = () => {
     <div className='container'>
       <div className='flex relative '>
         
-        <div className='w-[50%] flex flex-col justify-center items-center'>
+        <div className='w-[50%] flex flex-col justify-center'>
             {/* Tulisan */}
-            <div className='font-bold text-[60px] py-8 uppercase'>
-                <p className=''>find information 
-                <pre className='font-[Poppins]'>your vacation</pre>
-                <pre className='font-[Poppins]'>with us!</pre>
-                </p>
-            </div>
+            <div className='mx-16'>
+              <div className='font-bold text-[60px] py-8 uppercase w-full'>
+                  <p className=''>find information 
+                  <pre className='font-[Poppins]'>your vacation</pre>
+                  <pre className='font-[Poppins]'>with us!</pre>
+                  </p>
+              </div>
 
-            <div className='font-[Poppins] text-[#7A7A7A] font-light text-[24px]'>
-                <p>
-                Exploring the world is an extraordinary experience.
-                <pre className='font-[Poppins]'>We are ready to provide everything you need.</pre>
-                </p>
+              <div className='font-[Poppins] text-[#7A7A7A] font-light text-[24px]'>
+                  <p>
+                  Exploring the world is an extraordinary experience.
+                  <pre className='font-[Poppins]'>We are ready to provide everything you need.</pre>
+                  </p>
+              </div>
             </div>
-
-            <div className='absolute right-6 top-0'>
+            <div className='absolute -right-52 top-0'>
                 <img src="../asset/landing.png" alt="" />
             </div>
             {/* Tulisan */}
 
             {/* Search Button */}
-            <div className='bg-[#DEE9FF] w-11/12 md:w-[41rem] xl:w-[41rem] h-auto p-5 rounded-3xl my-28 ml-12'>
+           
+            {/* Search Button */}
+
+        </div>
+      </div>
+      <div className='bg-[#DEE9FF] w-full h-auto p-5 rounded-3xl my-28 ml-12'>
                 <section className='w-full h-10 flex items-center'>
 
                 <span className='w-10 h-full flex items-center'>
@@ -45,10 +51,6 @@ const Hero = () => {
                 </button>
                 </section>
             </div>
-            {/* Search Button */}
-
-        </div>
-      </div>
     </div>
   )
 }

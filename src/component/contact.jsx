@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='bg-[#5082FE] w-full h-auto relative container'>
+    <div className='bg-[#5082FE] w-full h-auto relative'>
         <div className='flex flex-col'>
           <div className='w-[91%] m-auto py-9'>
             <p className='font-extrabold text-[64px] text-white font-[Poppins]'>We are ready to 
@@ -19,7 +19,7 @@ const Contact = () => {
           </div>
         </div>
         <div>
-          <img src="../asset/bali.png" alt="" className='absolute right-0 top-1'/>
+          <img src="../asset/gbcon.png" alt="" className='w-96 absolute right-0 top-1 mx-20'/>
         </div>
     </div>
   )
